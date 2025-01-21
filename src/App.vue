@@ -40,7 +40,9 @@ const reset = () => {
 
 <template>
   <header id="container-all" class="space-y-2">
-    <h1 class="text-center font-sans text-4xl">This <span class="text-xl">or</span> That</h1>
+    <h1 class="text-center font-sans text-4xl font-semibold">
+      This <span class="text-xl">or</span> That
+    </h1>
     <p class="text-center">Choose between two options by clicking on the image.</p>
   </header>
 

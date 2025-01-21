@@ -1,4 +1,9 @@
-export const members = [
+type Member = {
+  name: string
+  image: string
+}
+
+export const members: Member[] = [
   {
     name: 'chaewon',
     image: 'https://i.pinimg.com/736x/bb/67/60/bb676035bb34a641c900faa3db94a7a3.jpg',

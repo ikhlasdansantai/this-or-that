@@ -15,7 +15,7 @@ const getChoose = (choose: string) => {
   choosenMember.value = choose
 
   if (index.value === members.length - 1) {
-    alert('Ur choose are finished ' + choose)
+    alert('Ur final choice is ' + choose)
     isFinished.value = true
     return
   }
@@ -39,12 +39,15 @@ const reset = () => {
 </script>
 
 <template>
-  <header id="container-all">
-    <h1 class="font-sans text-4xl">This <span class="text-xl">or</span> That</h1>
+  <header id="container-all" class="space-y-2">
+    <h1 class="text-center font-sans text-4xl font-semibold">
+      This <span class="text-xl">or</span> That
+    </h1>
+    <p class="text-center">Choose between two options by clicking on the image.</p>
   </header>
 
   <main>
-    <section class="mt-14 grid w-full gap-10 sm:grid-cols-2">
+    <section class="mt-10 grid w-full gap-10 sm:grid-cols-2">
       <ul id="choose-wrapper" v-for="member in selectedMembers" :key="member.name">
         <li
           id="choose-card"
@@ -69,6 +72,8 @@ const reset = () => {
 
     <button
       @click="reset"
+      :disabled="choosenMember === undefined"
+      :class="{ 'pointer-events-none opacity-50': choosenMember === undefined }"
       class="mx-auto mt-10 block rounded-lg bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300"
     >
       Reset

@@ -1,18 +1,17 @@
-# this-or-that
+# This-or-That 😎🤔🤠
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a fun interactive quiz game where users pick between two options by clicking on an image. The project is created using Vue 3 and Vite, with a simple, playful design.
 
-## Recommended IDE Setup
+![image](https://github.com/user-attachments/assets/1bedcd4c-e597-4303-95fa-654ed3241e38)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Project Features
+- Interactive quiz: Users can choose between two options by clicking on the images.
+- Fun and simple design: The goal is to provide a light-hearted experience.
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Tech Stack
+Vue 3, TypeScript, Tailwindcss
++
+ESLint, Prettier
 
 ## Project Setup
 

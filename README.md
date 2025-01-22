@@ -2,7 +2,8 @@
 
 This is a fun interactive quiz game where users pick between two options by clicking on an image. The project is created using Vue 3 and Vite, with a simple, playful design.
 
-![image](https://github.com/user-attachments/assets/1bedcd4c-e597-4303-95fa-654ed3241e38)
+<!-- video preview -->
+https://github.com/user-attachments/assets/6d1bf204-5ebd-4ac1-a2be-f6e448124421
 
 ## Project Features
 - Interactive quiz: Users can choose between two options by clicking on the images.

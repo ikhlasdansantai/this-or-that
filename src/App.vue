@@ -54,7 +54,7 @@ const reset = () => {
       <picked-member-card v-else :choosen-member />
     </section>
 
-    <button-item :choosen-member="choosenMember" @reset="reset" />
+    <button-item :choosen-member @reset="reset" />
   </main>
 </template>
 
